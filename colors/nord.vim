@@ -31,6 +31,7 @@ let s:nord14_gui = "#A3BE8C"
 let s:nord15_gui = "#B48EAD"
 
 let s:nord1_term = "0"
+let s:nord2_term = "2"
 let s:nord3_term = "8"
 let s:nord5_term = "7"
 let s:nord6_term = "15"
@@ -253,37 +254,37 @@ endif
 "+----------------------+
 "+ Language Base Groups +
 "+----------------------+
-call s:hi("Boolean", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Character", s:nord14_gui, "", s:nord14_term, "", "", "")
-call s:hi("Comment", s:nord3_gui_bright, "", s:nord3_term, "", s:italicize_comments, "")
+call s:hi("Boolean", s:nord2_gui, "", s:nord2_term, "", "", "")
+call s:hi("Character", s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("Comment", s:nord9_gui, "", s:nord9_term, "", s:italicize_comments, "")
 call s:hi("Conceal", "", "NONE", "", "NONE", "", "")
-call s:hi("Conditional", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Constant", s:nord4_gui, "", "NONE", "", "", "")
+call s:hi("Conditional", s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("Constant", s:nord11_gui, "", s:nord11_term, "", "", "")
 call s:hi("Decorator", s:nord12_gui, "", s:nord12_term, "", "", "")
-call s:hi("Define", s:nord9_gui, "", s:nord9_term, "", "", "")
+call s:hi("Define", s:nord15_gui, "", s:nord15_term, "", "", "")
 call s:hi("Delimiter", s:nord6_gui, "", s:nord6_term, "", "", "")
-call s:hi("Exception", s:nord9_gui, "", s:nord9_term, "", "", "")
+call s:hi("Exception", s:nord13_gui, "", s:nord13_term, "", "", "")
 call s:hi("Float", s:nord15_gui, "", s:nord15_term, "", "", "")
 call s:hi("Function", s:nord8_gui, "", s:nord8_term, "", "", "")
-call s:hi("Identifier", s:nord4_gui, "", "NONE", "", "NONE", "")
-call s:hi("Include", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Keyword", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Label", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Number", s:nord15_gui, "", s:nord15_term, "", "", "")
-call s:hi("Operator", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
-call s:hi("PreProc", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
-call s:hi("Repeat", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Special", s:nord4_gui, "", "NONE", "", "", "")
-call s:hi("SpecialChar", s:nord13_gui, "", s:nord13_term, "", "", "")
-call s:hi("SpecialComment", s:nord8_gui, "", s:nord8_term, "", s:italicize_comments, "")
-call s:hi("Statement", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("StorageClass", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("String", s:nord14_gui, "", s:nord14_term, "", "", "")
-call s:hi("Structure", s:nord9_gui, "", s:nord9_term, "", "", "")
+call s:hi("Identifier", s:nord8_gui, "", s:nord8_term, "", "NONE", "")
+call s:hi("Include", s:nord15_gui, "", s:nord15_term, "", "", "")
+call s:hi("Keyword", s:nord2_gui, "", s:nord2_term, "", "", "")
+call s:hi("Label", s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("Number", s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("Operator", s:nord13_gui, "", s:nord13_term, "", "NONE", "")
+call s:hi("PreProc", s:nord15_gui, "", s:nord15_term, "", "NONE", "")
+call s:hi("Repeat", s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("Special", s:nord15_gui, "", s:nord15_term, "", "", "")
+call s:hi("SpecialChar", s:nord15_gui, "", s:nord15_term, "", "", "")
+call s:hi("SpecialComment", s:nord15_gui, "", s:nord15_term, "", s:italicize_comments, "")
+call s:hi("Statement", s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("StorageClass", s:nord2_gui, "", s:nord2_term, "", "", "")
+call s:hi("String", s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("Structure", s:nord2_gui, "", s:nord2_term, "", "", "")
 call s:hi("Tag", s:nord4_gui, "", "", "", "", "")
 call s:hi("Todo", s:nord13_gui, "NONE", s:nord13_term, "NONE", "", "")
-call s:hi("Type", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
-call s:hi("Typedef", s:nord9_gui, "", s:nord9_term, "", "", "")
+call s:hi("Type", s:nord2_gui, "", s:nord2_term, "", "NONE", "")
+call s:hi("Typedef", s:nord2_gui, "", s:nord2_term, "", "", "")
 hi! link Annotation Decorator
 hi! link Macro Define
 hi! link PreCondit PreProc
